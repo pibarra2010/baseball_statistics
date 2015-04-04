@@ -38,8 +38,10 @@ Additional notes for a Windows User
 * Make sure that you install Python on your Windows machine (I found http://learnpythonthehardway.org/book/ex0.html helpful for setting up)
 -----> [Environment]::SetEnvironmentVariable("Path", "$env:Path;C:\Python34", "User")
 
-* You need to download Beautiful Soup 4 package if you don't have it already. If you're using Python 3.4, 'pip' is already included in the package. Just type 'pip install beautifulsoup4' from the shell
+* You need to download Beautiful Soup 4 package if you don't have it already. If you're using Python 3.4, 'pip' is already included in the package. Just type 'pip install beautifulsoup4' from the shell, not from within python
+-----> Example: "C:\Python34\scripts\pip.exe install beautifulsoup4" from PowerShell
 
 * You also need to install pymysql. 'pip install pymysql'
+-----> Example: "C:\Python34\scripts\pip.exe install pymysql" from PowerShell
 
 * Remember, when using local scripts to make sure that MySQL databases are up and running (by turning on WAMP)
